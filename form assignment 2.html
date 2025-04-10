@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment 2</title>
+    <style>
+        input{
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table border="2" align="center" width="60%">
+            <tr>
+                <th colspan="4"><b>Registration Form</b></th>
+            </tr>
+            <tr>
+                <td>Student Name:</td>
+                <td><input type="text" name="s" placeholder="First Name"></td>
+                <td><input type="text" name="s" placeholder="Middle Name"></td>
+                <td><input type="text" name="s" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <td>Fathers Name:<br>Date of Birth</td>
+                <td><input type="text" name="f" placeholder="Enter Your Father Name"><br><input type="date"></td>
+
+                <td>Mother's Name:<br>Gender</td>
+                <td><input type="text" name="m" placeholder="Enter your Mother Name"><br>Male<input type="radio" value="gender" name="m">Female<input type="radio" value="gender" name="m"></td>
+            </tr>
+            <tr>
+                <td>Category:<br><br>Ex-Serviceman<br><br>Email ID<br><br></td>
+                <td>Gen<input type="radio" name="a">OBC<input type="radio" name="a">SC/ST<input type="radio" name="a"><br><br>Yes<input type="radio" name="n">NO<input type="radio" name="n"><br><br><input type="email"><br></td>
+
+                <td>Handicaped<br><br>EWS<br><br>Mobile NO.<br<br></td>
+
+                <td>Yes<input type="radio" name="y1">No<input type="radio" name="y1"><br><br>Yes<input type="radio" name="y1">No<input type="radio" name="y1"><br><br><input type="text"><br><br></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><select name="select Any one"><option value=">Select Any One</option></select></td>
+
+                <td>City</td>
+                <td><select name="Select any one"><option value="a">Select Any One</option></select></td>
+            </tr>
+            <tr>
+                <td>Upload photo</td>
+                <td><input type="file"></td>
+                <td>Upload Signature</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td colspan="5" align="center"><input type="submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
